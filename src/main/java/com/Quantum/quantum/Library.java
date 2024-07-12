@@ -6,7 +6,7 @@ import java.util.List;
 public class Library {
     private List<Book> books;
 
-    // Constructor
+    
     public Library() {
         this.books = new ArrayList<>();
     }
@@ -56,7 +56,7 @@ public class Library {
         return result;
     }
 
-    // Method to find books by author (case-insensitive search)
+    // Method to find books by author
     public List<Book> findBookByAuthor(String author) {
         List<Book> result = new ArrayList<>();
         for (Book b : books) {

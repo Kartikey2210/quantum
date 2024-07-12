@@ -17,7 +17,7 @@ public class Book {
         this.genre = genre;
         this.publicationYear = publicationYear;
         this.department = department;
-        this.available = true; // New books are initially available
+        this.available = true;
     }
 
     // Getters and setters
@@ -77,7 +77,7 @@ public class Book {
         this.available = available;
     }
 
-    // toString method to display book information
+    
     @Override
     public String toString() {
         return "Book{" +
